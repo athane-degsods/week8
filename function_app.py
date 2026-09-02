@@ -2,7 +2,7 @@ import json
 import os
 
 import azure.functions as func
-import pyodbc
+import pypyodbc
 
 # ---- Fill in your Azure SQL connection details here ----
 server = 'inclass-week8.database.windows.net'
