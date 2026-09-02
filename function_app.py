@@ -15,7 +15,7 @@ app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
 
 def get_db_connection():
-    return pyodbc.connect(
+    return pypyodbc.connect(
         "DRIVER={SQL Server};"
         "SERVER=" + server + ";"
         "DATABASE=" + database + ";"
